@@ -1,0 +1,37 @@
+.main {
+  height: 100%;
+  padding: 20px;
+}
+
+.mainSideBar,
+.mainContent {
+  height: inherit;
+  background: honeydew;
+  
+}
+
+.mainSideBar {
+  @media (min-width: 1400px) { 
+    width: 12%;
+  }
+  @media (min-width: 1460px) {
+    width: 10%;
+  }
+  @media (min-width: 1600px) {
+    width: 9%;
+  }
+}
+
+.mainContent {
+  padding: 0 20px;
+  border-radius: 0 10px 10px 0;
+  @media (min-width: 1400px) {
+    width: 88%;
+  }
+  @media (min-width: 1460px) {
+    width: 90%;
+  }
+  @media (min-width: 1600px) {
+    width: 91%;
+  }
+}
